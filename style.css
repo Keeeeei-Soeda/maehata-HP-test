@@ -2625,6 +2625,8 @@ footer address, #footer address {
   list-style: none;
   height: auto;                      /* ← ここを固定高さから解除 */
   /* 既存のアニメ指定はそのまま使えます */
+	animation: lawyerStep5 16s linear infinite;
+  will-change: transform;
 }
 
 /* 各スライド：横幅いっぱい＋16:9で高さを自動算出 */
