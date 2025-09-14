@@ -3722,8 +3722,6 @@ footer address, #footer address {
   .nav-toggle:checked + .hamburger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 }
 
-
- /* アクセスページについてのアンカーリンク */
 #access {
-  scroll-margin-top: 100px; /* 固定ヘッダーの高さに合わせて調整 */
+  scroll-margin-top: 500px; /* 固定ヘッダーの高さに合わせて調整 */
 }
